@@ -1,0 +1,193 @@
+@media screen and (max-width: 1440px) and (min-width: 1130.2px) {
+    .header__phone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1130px) and (min-width: 1025.2px) {
+    .header__phone {
+        display: none;
+    }
+
+    .header__wrap {
+        padding: 0 50px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1025px) and (min-width: 960.2px) {
+    
+    :root {
+        --dark_blue: #122333;
+        --white: #fff;
+        --white-blue: #F2F8FA;
+        --red: #ED4C22;
+        --font1: 90px;
+        --font2: 49px;
+        --family: 'Khand';
+        --family2: 'Source Sans Pro'
+    }
+    
+    .container {
+        margin: 0;
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__wrap {
+        padding: 0 50px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .header__wrap {
+        padding: 0;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 770.2px) {
+    :root {
+        --dark_blue: #122333;
+        --white: #fff;
+        --white-blue: #F2F8FA;
+        --red: #ED4C22;
+        --font1: 90px;
+        --font2: 49px;
+        --family: 'Khand';
+        --family2: 'Source Sans Pro'
+    }
+    
+    .container {
+        margin: 0;
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__wrap {
+        padding: 0 50px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .header__wrap {
+        padding: 0;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) and (min-width: 480.2px) {
+    :root {
+        --dark_blue: #122333;
+        --white: #fff;
+        --white-blue: #F2F8FA;
+        --red: #ED4C22;
+        --font1: 90px;
+        --font2: 49px;
+        --family: 'Khand';
+        --family2: 'Source Sans Pro'
+    }
+    
+    .container {
+        margin: 0;
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__wrap {
+        padding: 0 50px;
+    }
+
+    .orderonline {
+        display: none;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .header__wrap {
+        padding: 0;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320.2px) {
+    :root {
+        --dark_blue: #122333;
+        --white: #fff;
+        --white-blue: #F2F8FA;
+        --red: #ED4C22;
+        --font1: 90px;
+        --font2: 49px;
+        --family: 'Khand';
+        --family2: 'Source Sans Pro'
+    }
+    
+    .container {
+        margin: 0;
+        width: 100%;
+        max-width: 1024px;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__wrap {
+        padding: 0 50px;
+    }
+
+    .header__logo {
+        width: 120px;
+        height: 35px;
+    }
+
+    .orderonline {
+        display: none;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .header__wrap {
+        padding: 0;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+}
