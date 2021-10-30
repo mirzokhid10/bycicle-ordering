@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Khand';
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --dark_blue: #122333;
+    --white: #fff;
+    --white-blue: #F2F8FA;
+    --red: #ED4C22;
+    --font1: 90px;
+    --font2: 49px;
+    --family: 'Khand';
+    --family2: 'Source Sans Pro'
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+* {
+    text-decoration: none;
+}
+
+.contact {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    padding: 100px 0 0 0;
+}
+
+.contact-title {
+    height: 150px;
+    background-color: #F2F8FA;
+    width: 100%;
+}
+
+.contact-title h2 {
+    font-size: 35px;
+    font-family: var(--family2);
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+    line-height: 40px;
+    color: #122333;
+    padding-top: 3rem;
+    text-transform: uppercase;
+}
+
+.contact-title p {
+    font-size: 18px;
+    font-family: var(--family2);
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    line-height: 20px;
+    color: #122333;
+    text-transform: capitalize;
+}
+
+.contact-title p a{
+    text-decoration: none;
+    color: #122333;
+}
+
+.contact-title p a:hover{
+    color: red;
+    transition: color 0.5s ease-out;
+}
+
+.contact-info {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 2rem 0 0 0;
+}
+
+.contact-info__title h2 {
+    font-family: var(--family2);
+    font-size: 120px;
+    line-height: 0px;
+    text-transform: uppercase;
+    white-space: 10px;
+    font-weight: 900;
+    color: #F2F8FA;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-info__title p {
+    font-family: var(--family2);
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    white-space: 10px;
+    font-weight: 600;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info__box {
+    padding: 2rem 10rem;
+    margin: 2rem 0;
+}
+
+
+.contact-btn__slide {
+    border: 2px solid #122333;
+    border-radius: 0px;
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    font-family: var(--family);
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #122333;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+  
+.contact-btn__slide a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+.contact-slide__right:hover {
+    box-shadow: inset 400px 0 0 0 #122333;
+}
+  
+.contact-btn {
+    width: 200px;
+    height: 60px;
+    left: 39%;
+    display: block;
+    position: relative;
+    background-color: red;
+    z-index: 150;
+    margin: 2rem 0;
+}
