@@ -530,7 +530,7 @@ ol li:hover {
 
 /*home page fineshed*/
 
-/*fast bycicle messanger fineshed*/
+/*fast bycicle messanger*/
 .fastbycicle {
     width: 100%;
     z-index: 5;
@@ -1099,6 +1099,7 @@ hr {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: auto;
 }
 
 .riders__title {
